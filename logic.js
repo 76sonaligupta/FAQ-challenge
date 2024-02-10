@@ -22,7 +22,7 @@ questionContainers.forEach(container => {
       // Change the image icon to minus
       const imageWrap = this.querySelector('.image-wrap');
       if (imageWrap) {
-        imageWrap.innerHTML = '<img src="./assets/images/icon-minus.svg" alt="" />';
+        imageWrap.innerHTML = '<img src="icon-minus.svg" alt="" />';
       }
     } else {
       // If the answer container is inactive or it was already active, reset its max-height to 0
@@ -30,7 +30,7 @@ questionContainers.forEach(container => {
       // Change the image icon to plus
       const imageWrap = this.querySelector('.image-wrap');
       if (imageWrap) {
-        imageWrap.innerHTML = '<img src="./assets/images/icon-plus.svg" alt="" />';
+        imageWrap.innerHTML = '<img src="icon-plus.svg" alt="" />';
       }
     }
   });
@@ -45,7 +45,7 @@ function closeAllAccordionItems() {
     answerContainer.style.maxHeight = 0;
     const imageWrap = container.querySelector('.image-wrap');
     if (imageWrap) {
-      imageWrap.innerHTML = '<img src="./assets/images/icon-plus.svg" alt="" />';
+      imageWrap.innerHTML = '<img src="icon-plus.svg" alt="" />';
     }
   });
 }
